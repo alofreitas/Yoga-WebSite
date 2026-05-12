@@ -19,6 +19,6 @@ import { CommonModule } from '@angular/common';
       </div>
     </section>
   `,
-  styleUrls: ['./hero.scss'] // Usando SCSS separado para organização
+  styleUrls: ['./hero.scss'] 
 })
 export class HeroComponent {}

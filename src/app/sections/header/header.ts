@@ -33,7 +33,6 @@ import { RouterModule } from '@angular/router';
     .header { width: 100%; padding: 20px 0; background-color: #fafafa; }
     .header-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
     
-    /* ESTILOS DA LOGO */
     .logo { display: flex; align-items: center; gap: 10px; }
     .logo-icon { width: 80px; height: auto;} 
     .logo-text { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: #547c6a; letter-spacing: 2px; font-weight: 300; }

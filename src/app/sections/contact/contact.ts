@@ -93,7 +93,6 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
   styles: [`
     .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
     
-    /* ESTILOS DEPOIMENTOS */
     .testimonials-section { padding: 80px 0; background-color: #fafafa; text-align: center; }
     .section-title { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: #547c6a;}
     //.clients-background { background-color: #557A6672;; padding: 40px; border-radius: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); position: relative; width: 500px; }
@@ -107,7 +106,6 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
     .nav-arrows { display: flex; justify-content: center; gap: 15px; margin-top: 20px; }
     .arrow { width: 45px; height: 45px; border-radius: 50%; border: 1px solid #ddd; display: flex; align-items: center; justify-content: center; color: #777; cursor: pointer; }
 
-    /* ESTILOS FORMULÁRIO */
     .contact-section { padding: 100px 0 0 0; background-color: white; }
     .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; margin-bottom: 80px; }
     .form-lead { font-family: 'Open Sans', sans-serif; color: #777; font-style: italic; margin-bottom: 5px; font-weight: 300; }
@@ -119,18 +117,17 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
     .btn-submit:hover { background-color: #436354; }
     .side-img { width: 100%; border-radius: 40px; box-shadow: 20px 20px 0px #f0f0f0; }
 
-    /* ESTILOS RODAPÉ (FOOTER) */
     .footer-section {
       background-color: #547c6a;
       padding: 60px 0;
       color: white;
-      border-top-left-radius: 40px; /* Bordas arredondadas no topo caso queira como no figma */
+      border-top-left-radius: 40px; 
       border-top-right-radius: 40px;
     }
     .footer-container {
       display: flex;
       flex-direction: column;
-      align-items: flex-start; /* Alinha os itens à esquerda */
+      align-items: flex-start; 
     }
     .footer-logo {
       display: flex;

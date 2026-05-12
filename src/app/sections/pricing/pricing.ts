@@ -105,14 +105,14 @@ import { CommonModule } from '@angular/common';
       margin-bottom: 30px;
     }
     .price-box {
-      background-color: #6a8c7b; /* Verde um pouco mais suave para a caixa */
+      background-color: #6a8c7b; 
       color: white;
       font-family: 'Open Sans', sans-serif;
       font-weight: 600;
       font-size: 1.2rem;
       padding: 15px 0;
       text-align: center;
-      border-radius: 50px; /* Bordas bem arredondadas como no Figma */
+      border-radius: 50px; 
       margin-bottom: 30px;
     }
     .feature-list {
@@ -130,7 +130,7 @@ import { CommonModule } from '@angular/common';
       color: #707070;
     }
 
-    /* Estilos do FAQ (Perguntas Frequentes) */
+    /* Perguntas Frequentes */
     .faq-section {
       margin-top: 100px;
     }
@@ -149,7 +149,7 @@ import { CommonModule } from '@angular/common';
     .faq-item {
       background-color: white;
       padding: 20px 30px;
-      border-radius: 50px; /* Formato de pílula */
+      border-radius: 50px; 
       box-shadow: 0 5px 15px rgba(0,0,0,0.03);
       display: flex;
       justify-content: space-between;
@@ -177,7 +177,6 @@ import { CommonModule } from '@angular/common';
   `]
 })
 export class PricingComponent {
-  // Dados dos planos
   plans = [
     { 
       name: 'Básico', 
@@ -196,7 +195,6 @@ export class PricingComponent {
     }
   ];
 
-  // Dados do FAQ
   faqs = [
     { question: 'Nunca pratiquei yoga antes. Posso participar mesmo sendo iniciante?' },
     { question: 'Não sou nada flexível. O yoga é indicado para mim?' },
