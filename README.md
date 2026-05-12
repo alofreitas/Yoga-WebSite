@@ -1,4 +1,4 @@
-# 🍃​ Taíse Yoga - Landing Page & Web App
+# 🍃​ Taíse Yoga - Website
 
 ## Funcionalidades Principais
 
