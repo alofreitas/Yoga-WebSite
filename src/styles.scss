@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+/* src/styles.scss */
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 50px;
+}
+// 1. Definição da Paleta de Cores do Figma
+:root {
+  --color-primary-green: #547c6a; // Verde escuro dos botões/textos
+  --color-background-light: #fafafa; // Bege muito claro de fundo
+  --color-accent-gold: #a47e4f; // Dourado da Mandala e Estrelas
+  --color-text-dark: #333333; // Texto geral
+  --color-text-light: #707070; // Subtítulos e descrições
+  --color-white: #ffffff;
+}
+
+// 2. Tipografia (Importe as fontes do Google Fonts no index.html se necessário)
+body {
+  font-family: 'Open Sans', sans-serif; // Fonte sans-serif padrão para corpo
+  background-color: var(--color-background-light);
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+h1, h2, h3, .logo-text {
+  font-family: 'Playfair Display', serif; // Fonte serifada para títulos do Figma
+  color: var(--color-primary-green);
+  font-weight: 700;
+}
+
+// 3. Utilitários Globais
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary-green);
+  color: var(--color-white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px; // Estilo pílula do Figma
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #436354; // Tom mais escuro para hover
+  }
+}
+
+.btn-secondary {
+  background-color: var(--color-white);
+  color: var(--color-primary-green);
+  border: 2px solid var(--color-primary-green);
+  // ... similar ao btn-primary
+}

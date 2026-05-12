@@ -1,0 +1,59 @@
+/* src/app/sections/hero/hero.component.scss */
+.hero-section {
+  position: relative;
+  // A imagem de fundo da mulher fazendo Yoga
+  background-image: url('/assets/images/mandala-hero.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 120vh; // Define uma altura grande para o banner
+  display: flex;
+  align-items: center; // Centraliza verticalmente o conteúdo
+  border-radius: 40px; // Borda arredondada do rascunho
+  margin: 40px; // Espaçamento da borda da página
+  margin-top: -10px; // Ajuste para compensar o padding da seção
+  margin-bottom: -10px; // Ajuste para compensar o padding da seção
+}
+
+.hero-container {
+  display: flex;
+  justify-content: flex-end; // Empurra o conteúdo de texto para a direita
+  position: relative;
+}
+
+.hero-content {
+  max-width: 500px;
+    align-items: flex-start;
+  text-align: right; // Títulos alinhados à direita no Figma
+  margin-left: 600px;
+  margin-top: -50px;
+  color: var(--color-white); // Texto sobre imagem escura
+  padding-left: 250px;
+  
+
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: right;
+    color: var(--color-white); // Sobrescreve o verde global aqui
+    text-transform: uppercase;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-weight: 300;
+    font-size: 80px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end; // Botões alinhados à direita
+  }
+}
