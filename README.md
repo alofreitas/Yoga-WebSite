@@ -1,5 +1,7 @@
 # 🍃​ Taíse Yoga - Website
 
+<img width="262" height="103" alt="Logo" src="https://github.com/user-attachments/assets/7de65587-aa25-4371-8bcc-4b21c5bc3a65" />
+
 ## Funcionalidades Principais
 
 * **Landing Page Completa:** Seções detalhadas incluindo Hero (Banner), Benefícios, Biografia da instrutora, Planos de Preços, FAQ (Perguntas Frequentes) e Depoimentos de clientes.
