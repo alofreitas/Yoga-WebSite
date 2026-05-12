@@ -1,6 +1,6 @@
 # 🍃​ Taíse Yoga - Website
 
-<img width="731" height="828" alt="2" src="https://github.com/user-attachments/assets/0328123a-d9a6-47b4-82d8-1160b6540fdd" />
+<img width="365" height="414" alt="2" src="https://github.com/user-attachments/assets/0328123a-d9a6-47b4-82d8-1160b6540fdd" />
 
 ## Funcionalidades Principais
 
