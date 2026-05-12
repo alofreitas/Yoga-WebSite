@@ -4,7 +4,6 @@
 
 * **Landing Page Completa:** Seções detalhadas incluindo Hero (Banner), Benefícios, Biografia da instrutora, Planos de Preços, FAQ (Perguntas Frequentes) e Depoimentos de clientes.
 * **Single Page Application (SPA):** Navegação instantânea e sem recarregamento de página entre as rotas de *Home*, *Login* e *Cadastro*, gerenciada pelo Angular Router.
-* **Design Moderno (Glassmorphism):** Implementação de UI avançada nas telas de autenticação, utilizando o efeito de "vidro fosco" (backdrop-filter) sobre imagens de fundo de alta qualidade.
 * **Scrolling:** Navegação entre as seções da página principal utilizando âncoras HTML e CSS nativo.
 * **Formulários Reativos:** Gerenciamento de estado e validação de dados para as seções de "Fale Conosco" e fluxos de autenticação, utilizando o `ReactiveFormsModule` do Angular.
 * **Tipografia:** Integração otimizada com o Google Fonts, utilizando as famílias *Cormorant Garamond* (títulos) e *Open Sans* (corpo de texto).
