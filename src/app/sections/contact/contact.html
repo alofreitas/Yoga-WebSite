@@ -1,0 +1,82 @@
+<section class="testimonials-section">
+      <div class="container">
+        <h2 class="section-title">Nossos Clientes</h2>
+        
+      <div class="clients-background">
+        <div class="testimonials-grid">
+          <div class="testimonial-card" *ngFor="let item of testimonials">
+            <div class="stars">
+              <span *ngFor="let s of [1,2,3,4,5]">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#f1c40f">
+                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                </svg>
+              </span>
+            </div>
+            
+            <p class="testimonial-text">"{{ item.text }}"</p>
+            
+            <div class="testimonial-footer">
+              <span class="author-name">{{ item.name }}</span>
+              <img [src]="item.photo" alt="{{ item.name }}" class="author-photo">
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-arrows">
+          <div class="arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg></div>
+          <div class="arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+        </div>
+      </div>
+</div>
+    </section>
+
+    <section id="contato" class="contact-section">
+      <div class="container contact-grid">
+        
+        <div class="contact-form-side">
+          <p class="form-lead">Precisando de ajuda?</p>
+          <h2 class="form-title">Fale Conosco</h2>
+          
+          <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label>Nome</label>
+              <input type="text" formControlName="name" placeholder="Seu Nome">
+            </div>
+            
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" formControlName="email" placeholder="seuemail@gmail.com">
+            </div>
+
+            <div class="form-group">
+              <label>Telefone</label>
+              <input type="text" formControlName="phone" placeholder="(00) 00000-0000">
+            </div>
+            
+            <div class="form-group">
+              <label>Mensagem</label>
+              <textarea formControlName="message" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Enviar Mensagem</button>
+          </form>
+        </div>
+
+        <div class="contact-image-side">
+          <img src="assets/images/Mulher rosa yoga.png" alt="Yoga Stretching" class="side-img">
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container footer-container">
+        <div class="footer-logo">
+          <img src="assets/icons/logo.svg" alt="Logo" class="logo-icon white-logo" onerror="this.style.display='none'">
+          <span class="footer-logo-text">TAÍSE YOGA</span>
+        </div>
+        
+        <div class="footer-info">
+          <p class="footer-phone">TELEFONE</p>
+          </div>
+      </div>
+    </footer>

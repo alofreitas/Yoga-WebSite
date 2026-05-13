@@ -1,1 +1,58 @@
-<p>cadastro works!</p>
+<div class="login-wrapper">
+      
+      <a routerLink="/login" class="btn-back">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Login
+      </a>
+
+      <div class="glass-card">
+        
+        <div class="toggle-container">
+          <div class="toggle-bg">
+            <button class="toggle-btn" routerLink="/login">Login</button>
+            <button class="toggle-btn active">Cadastro</button>
+          </div>
+        </div>
+
+        <h2 class="login-title">BEM VINDO!</h2>
+        <p class="login-subtitle">Preencha com os seus dados para finalizar o cadastro.</p>
+
+        <form class="login-form">
+          <div class="input-group">
+            <input type="text" placeholder="Nome" class="glass-input">
+          </div>
+
+          <div class="input-group">
+            <input type="email" placeholder="Email" class="glass-input">
+          </div>
+          
+          <div class="input-group">
+            <input type="password" placeholder="Senha" class="glass-input">
+            <span class="icon-eye">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#777" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </span>
+          </div>
+
+          <div class="input-group">
+            <input type="password" placeholder="Confirmar Senha" class="glass-input">
+            <span class="icon-eye">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#777" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </span>
+          </div>
+
+          <div class="divider"><span>ou cadastre-se com</span></div>
+
+          <div class="social-buttons">
+            <button type="button" class="btn-social">
+              <i class="fa-brands fa-apple"></i> Apple
+            </button>
+            <button type="button" class="btn-social">
+              <i class="fa-brands fa-google"></i> Google
+            </button>
+          </div>
+
+          <button type="submit" class="btn-continuar">Continuar</button>
+        </form>
+
+      </div>
+    </div>

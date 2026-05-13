@@ -1,54 +1,121 @@
 .pricing-section {
-  padding: 80px 0;
-  background-color: var(--color-white);
-  text-align: center;
-}
-
-.pricing-grid {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 50px;
-}
-
-.pricing-card {
-  background-color: var(--color-white);
-  padding: 40px;
-  border-radius: 20px;
-  width: 300px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
-  border: 1px solid #eeeeee;
-
-  .plan-name {
-    color: var(--color-text-dark);
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-  }
-
-  .price-container {
-    margin: 30px 0;
-    
-    .price-value {
+      padding: 80px 20px;
+      background-color: var(--color-background-light, #fafafa);
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .pricing-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
       font-size: 2.5rem;
-      font-weight: bold;
-      color: var(--color-primary-green);
+      color: #547c6a;
+      margin-bottom: 20px;
     }
-    .price-period {
-      color: var(--color-text-light);
+    .section-subtitle {
+      font-family: 'Open Sans', sans-serif;
+      color: #707070;
+      line-height: 1.6;
     }
-  }
 
-  .feature-list {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    
-    li {
+    /* Estilos dos Cards */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+    .pricing-card {
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border: 1px solid #eee;
+      text-align: left;
+    }
+    .plan-name {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .plan-desc {
+      font-family: 'Open Sans', sans-serif;
+      color: #707070;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+    }
+    .price-box {
+      background-color: #6a8c7b; 
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
+      padding: 15px 0;
+      text-align: center;
+      border-radius: 50px; 
+      margin-bottom: 30px;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .feature-list li {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       margin-bottom: 15px;
-      color: var(--color-text-light);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.9rem;
+      color: #707070;
     }
-  }
-}
+
+    /* Perguntas Frequentes */
+    .faq-section {
+      margin-top: 100px;
+    }
+    .faq-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      color: #547c6a;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .faq-item {
+      background-color: white;
+      padding: 20px 30px;
+      border-radius: 50px; 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .faq-item:hover {
+      transform: translateY(-2px);
+    }
+    .faq-question {
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      font-size: 1rem;
+    }
+    .faq-arrow {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 1px solid #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }

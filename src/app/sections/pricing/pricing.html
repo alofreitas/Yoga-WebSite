@@ -1,0 +1,45 @@
+<section class="pricing-section">
+      <div class="container">
+        
+        <div class="pricing-header">
+          <h2 class="section-title">Escolha o plano ideal para você!</h2>
+          <p class="section-subtitle">Esta aula suave utiliza posturas no chão e alongamentos longos para dissolver a tensão<br>acumulada no corpo.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card" *ngFor="let plan of plans">
+            <h3 class="plan-name">{{ plan.name }}</h3>
+            <p class="plan-desc">What payment methods.</p>
+            
+            <div class="price-box">
+              {{ plan.price | currency:'BRL':'symbol':'1.2-2' }}/ mês
+            </div>
+
+            <ul class="feature-list">
+              <li *ngFor="let feature of plan.features">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#547c6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>{{ feature }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-section">
+          <h2 class="faq-title">Perguntas Frequentes</h2>
+          
+          <div class="faq-list">
+            <div class="faq-item" *ngFor="let faq of faqs">
+              <span class="faq-question">{{ faq.question }}</span>
+              <div class="faq-arrow">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#707070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
